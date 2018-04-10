@@ -1,0 +1,66 @@
+body{
+    font-family: 'Jua', sans-serif;
+    background: #67B26F;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4ca2cd, #67B26F);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4ca2cd, #67B26F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+
+#chat-container{
+    max-width: 700px;
+    margin: 50px auto;
+    border: 2px solid #ddd;
+    box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.171);
+    border-radius: 5px;
+}
+
+#chat-window{
+    height: 450px;
+    overflow: auto;
+    background: #f9f9f9;
+    border-radius: 5px;
+}
+
+#output p{
+    padding: 14px 0px;
+    margin: 0 20px;
+    border-bottom: 1px solid #e9e9e9;
+    color: #555;
+}
+
+#feedback p{
+    color: rgba(170, 170, 170, 0.747);
+    padding: 16px 0px;
+    margin: 0 20px;
+}
+
+#output strong{
+    color: #67B26F;
+}
+
+input{
+    padding: 10px 15px;
+    box-sizing: border-box;
+    background: #eee;
+    border: 0;
+    display: block;
+    width: 100%;
+    background: #fff;
+    border-bottom: 1px solid #eee;
+    font-family: 'Jua', sans-serif;
+    font-size: 16px;
+}
+
+input#name {
+    color: #67B26F;
+}
+
+button{
+    background: #67B26F;
+    color: #fff;
+    font-size: 18px;
+    border: 0;
+    padding: 12px 0;
+    width: 100%;
+    border-radius: 5px;
+}
