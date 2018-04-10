@@ -15,6 +15,7 @@ btn.addEventListener('click', () =>{
         message: message.value,
         name: name.value
     })
+    document.getElementById('name').disabled = true;
 });
 
 message.addEventListener('keypress', () => {
